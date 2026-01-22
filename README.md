@@ -83,7 +83,7 @@ Frontend behavior was tested directly in the browser with valid and invalid data
 ## How to Install and Run the Project
 
 **1. Clone the repository**
-```bash
+
 git clone https://github.com/your-username/your-repo-name.git
 2. Install backend dependencies
 
