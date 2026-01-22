@@ -85,3 +85,38 @@ Frontend behavior was tested directly in the browser with valid and invalid data
 **1. Clone the repository**
 ```bash
 git clone https://github.com/your-username/your-repo-name.git
+2. Install backend dependencies
+
+cd backend
+npm install
+
+
+Create a .env file in the backend folder and add:
+
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_secret_key
+
+
+Run the backend:
+
+node server.js
+
+
+3. Install frontend dependencies
+
+cd frontend
+npm install
+npm start
+
+
+The frontend will run on http://localhost:3000
+The backend will run on http://localhost:5000
+
+Summary
+
+This project demonstrates how to build a real-world full-stack web application using React, Express, and MongoDB.
+It covers frontend development, backend API creation, database integration, authentication, and basic security practices.
+
+The project is suitable as a portfolio project and a strong foundation for adding advanced features such as payments, admin dashboards, and deployment.
+
+Contributions and improvements are always welcom
